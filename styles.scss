@@ -10,6 +10,7 @@ Cool Grey 8: #9CAAB9
 Cool Grey 9: #ACBAC9
 Cool Grey 10: #BCCAD9
 Cool Grey 11: #C5D3E2 */
+
 body {
   margin: 0;
   background-color: #1c2a39;
@@ -30,11 +31,8 @@ h4 {
 }
 
 .flex-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   background-color: #9CAAB9;
 }
 
@@ -46,4 +44,3 @@ h4 {
   line-height: 75px;
   font-size: 30px;
 }
-/*# sourceMappingURL=styles.css.map */
