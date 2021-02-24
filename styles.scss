@@ -30,16 +30,26 @@ h4 {
   margin: 5px;
 }
 
-.flex-container {
+.flex-container-outer {
   display: flex;
+  justify-content: space-between;
+  border: 10px solid yellow;
   flex-wrap: nowrap;
-  background-color: #9CAAB9;
+  background-color: #9caab9;
 }
 
-.flex-container > div {
-  background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
+.flex-container-inner {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid blue;
+  flex-wrap: nowrap;
+  background-color: greenyellow;
+}
+
+.element {
+  background-color: orange;
+  // width: 150px;
+  border: 2px solid white;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
