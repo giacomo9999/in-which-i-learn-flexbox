@@ -43,6 +43,7 @@ h4 {
 }
 
 .flex-container-inner {
+  width: 33.3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -57,6 +58,7 @@ h4 {
 
 .element {
   background-color: orange;
+  width: 25%;
   border: 2px solid white;
   text-align: center;
   line-height: 75px;

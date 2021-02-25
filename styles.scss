@@ -39,6 +39,7 @@ h4 {
 }
 
 .flex-container-inner {
+  width: 33.3%;
   display: flex;
   justify-content: flex-start;
   border: 2px solid blue;
@@ -48,7 +49,7 @@ h4 {
 
 .element {
   background-color: orange;
-  // width: 150px;
+  width: 25%;
   border: 2px solid white;
   text-align: center;
   line-height: 75px;
